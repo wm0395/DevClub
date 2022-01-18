@@ -1,0 +1,175 @@
+html{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #5bde6c;
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+
+
+
+#Nav{
+    background-color: #1e2021;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    font-size: large;
+    font-weight: 600;
+}
+li{
+    float:right;
+}
+li a{
+    background-color: #1e2021;
+    color: aliceblue;   
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li a:hover{
+    color: #1e2021;
+    background-color: aliceblue;   
+}
+
+
+#Home p:first-of-type{
+    font-size: 80px;
+    color: rgb(132, 159, 184);
+    font-weight: 750;
+    text-align: left;
+}
+#Home p{
+    font-size: 90px;
+    color: rgb(157, 255, 239);
+    font-weight: 900;
+    text-align: right;
+}
+
+#Precautions{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border: 10px #1e2021;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+}
+#Precautions img{
+    width: 500px;
+    height: 500px;
+    vertical-align: middle;
+}
+.image{
+    margin:5%;
+    border-left: 5px;
+    border-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 5px solid #1e2021;
+    border-radius: 15px;
+    max-width: 95%;
+}
+.left{
+    float: left;
+    text-align: left;
+}
+.left span{
+    align-items: right;
+}
+.right{
+    float: right;
+    text-align: right;
+}
+
+
+#Symptoms{
+    background-color: #444f55;
+    border-radius: 30px;
+    color: aliceblue;
+    display:block;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+#Symptoms table{
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px aliceblue solid;
+    border-radius: 7px;
+    width: 70%;
+}
+#Symptoms th{
+    border-bottom: 1px aliceblue solid;
+    font-size: 35px;
+    color: rgb(157, 255, 239);
+    height: 60px;
+}
+#Symptoms td{
+    font-size: 25px;
+    color: aliceblue;
+    height: 30px;
+}
+
+
+#FAQs{
+    border: 10px #1e2021;
+    border-radius: 30px;
+    margin: 0;
+    padding-top:0;
+    padding-left: 5%;
+    padding-right:5%;
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+#FAQs p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+#Resources{
+    display: block;
+    background-color: rgb(255, 21, 68);
+    border-radius: 4vh;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-top: 1vh;
+    width: 85vh;
+    height: 49vh;
+    text-align: center;
+}
+
+
+#Footer{
+    display: block;
+    float: right;
+    color: aliceblue;
+    border: 1px aliceblue solid;
+    text-align: right;
+    font-size: small;
+    width: 18vh;
+    border-radius: 10px;
+    padding-right: 5vh;
+}
